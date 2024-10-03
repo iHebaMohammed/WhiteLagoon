@@ -1,0 +1,11 @@
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\bin\Debug\net8.0\Demo.Domain.deps.json
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\bin\Debug\net8.0\Demo.Domain.dll
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\bin\Debug\net8.0\Demo.Domain.pdb
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.AssemblyInfoInputs.cache
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.AssemblyInfo.cs
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.csproj.CoreCompileInputs.cache
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.dll
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\refint\Demo.Domain.dll
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.pdb
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\ref\Demo.Domain.dll

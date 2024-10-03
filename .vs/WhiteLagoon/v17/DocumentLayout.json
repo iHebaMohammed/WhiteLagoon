@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repos\\Projects\\WhiteLagoon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|e:\\repos\\projects\\whitelagoon\\demo.infrastructure\\migrations\\20240930231515_villatableanddataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:demo.infrastructure\\migrations\\20240930231515_villatableanddataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|e:\\repos\\projects\\whitelagoon\\demo.infrastructure\\data\\whitelagoondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:demo.infrastructure\\data\\whitelagoondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC64A2C-44B7-4227-8F78-1DEC52E379DC}|Demo.Domain\\Demo.Domain.csproj|e:\\repos\\projects\\whitelagoon\\demo.domain\\entities\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC64A2C-44B7-4227-8F78-1DEC52E379DC}|Demo.Domain\\Demo.Domain.csproj|solutionrelative:demo.domain\\entities\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC64A2C-44B7-4227-8F78-1DEC52E379DC}|Demo.Domain\\Demo.Domain.csproj|e:\\repos\\projects\\whitelagoon\\demo.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC64A2C-44B7-4227-8F78-1DEC52E379DC}|Demo.Domain\\Demo.Domain.csproj|solutionrelative:demo.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 994,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240930231515_VillaTableAndDataSeed.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Migrations\\20240930231515_VillaTableAndDataSeed.cs",
+              "RelativeDocumentMoniker": "Demo.Infrastructure\\Migrations\\20240930231515_VillaTableAndDataSeed.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Migrations\\20240930231515_VillaTableAndDataSeed.cs",
+              "RelativeToolTip": "Demo.Infrastructure\\Migrations\\20240930231515_VillaTableAndDataSeed.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:15:23.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Demo.Web\\Program.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Program.cs",
+              "RelativeToolTip": "Demo.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:05:29.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Demo.Web\\appsettings.json",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\appsettings.json",
+              "RelativeToolTip": "Demo.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-30T22:00:36.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WhiteLagoonDbContext.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "RelativeDocumentMoniker": "Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "RelativeToolTip": "Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:55:24.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Demo.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Demo.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:40:22.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Villa.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Entities\\Villa.cs",
+              "RelativeDocumentMoniker": "Demo.Domain\\Entities\\Villa.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Entities\\Villa.cs",
+              "RelativeToolTip": "Demo.Domain\\Entities\\Villa.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:39:51.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 459,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

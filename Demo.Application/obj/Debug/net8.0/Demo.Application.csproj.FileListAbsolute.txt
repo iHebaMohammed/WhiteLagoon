@@ -9,3 +9,4 @@ E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\Demo.Application
 E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\refint\Demo.Application.dll
 E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\Demo.Application.pdb
 E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\ref\Demo.Application.dll
+E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\Demo.Application.sourcelink.json

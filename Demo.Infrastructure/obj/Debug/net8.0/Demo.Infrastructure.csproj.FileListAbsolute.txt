@@ -15,3 +15,4 @@ E:\Repos\Projects\WhiteLagoon\Demo.Infrastructure\obj\Debug\net8.0\ref\Demo.Infr
 E:\Repos\Projects\WhiteLagoon\Demo.Infrastructure\bin\Debug\net8.0\Demo.Domain.dll
 E:\Repos\Projects\WhiteLagoon\Demo.Infrastructure\bin\Debug\net8.0\Demo.Domain.pdb
 E:\Repos\Projects\WhiteLagoon\Demo.Infrastructure\obj\Debug\net8.0\Demo.Inf.DA525600.Up2Date
+E:\Repos\Projects\WhiteLagoon\Demo.Infrastructure\obj\Debug\net8.0\Demo.Infrastructure.sourcelink.json

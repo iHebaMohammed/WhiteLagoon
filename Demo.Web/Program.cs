@@ -1,4 +1,6 @@
+using Demo.Application.Common.Interfaces;
 using Demo.Infrastructure.Data;
+using Demo.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Demo.Web
@@ -15,6 +17,9 @@ namespace Demo.Web
 			builder.Services.AddDbContext<WhiteLagoonDbContext>(options => {
 				options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 			});
+			builder.Services.AddScoped<IVillaRepository , VillaRepository>();
+			builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
+			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 			var app = builder.Build();
 

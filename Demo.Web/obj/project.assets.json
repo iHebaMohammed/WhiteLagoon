@@ -3097,6 +3097,19 @@
           }
         }
       },
+      "Demo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Demo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Demo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo.Application.dll": {}
+        }
+      },
       "Demo.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3114,7 +3127,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Demo.Domain": "1.0.0",
+          "Demo.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "compile": {
@@ -8351,6 +8364,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Demo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Demo.Application/Demo.Application.csproj",
+      "msbuildProject": "../Demo.Application/Demo.Application.csproj"
     },
     "Demo.Domain/1.0.0": {
       "type": "project",

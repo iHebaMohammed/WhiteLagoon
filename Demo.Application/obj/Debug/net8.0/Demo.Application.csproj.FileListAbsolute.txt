@@ -10,3 +10,7 @@ E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\refint\Demo.Appl
 E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\Demo.Application.pdb
 E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\ref\Demo.Application.dll
 E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\Demo.Application.sourcelink.json
+E:\Repos\Projects\WhiteLagoon\Demo.Application\bin\Debug\net8.0\Demo.Domain.dll
+E:\Repos\Projects\WhiteLagoon\Demo.Application\bin\Debug\net8.0\Demo.Domain.pdb
+E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\Demo.Application.csproj.AssemblyReference.cache
+E:\Repos\Projects\WhiteLagoon\Demo.Application\obj\Debug\net8.0\Demo.App.371CD7EF.Up2Date

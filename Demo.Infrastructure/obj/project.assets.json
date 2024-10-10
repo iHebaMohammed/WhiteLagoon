@@ -1870,6 +1870,19 @@
           }
         }
       },
+      "Demo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Demo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Demo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo.Application.dll": {}
+        }
+      },
       "Demo.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4768,6 +4781,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Demo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Demo.Application/Demo.Application.csproj",
+      "msbuildProject": "../Demo.Application/Demo.Application.csproj"
+    },
     "Demo.Domain/1.0.0": {
       "type": "project",
       "path": "../Demo.Domain/Demo.Domain.csproj",
@@ -4776,7 +4794,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Demo.Domain >= 1.0.0",
+      "Demo.Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8"
     ]
@@ -4814,8 +4832,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Demo.Domain.csproj": {
-              "projectPath": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Demo.Domain.csproj"
+            "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Demo.Application.csproj": {
+              "projectPath": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Demo.Application.csproj"
             }
           }
         }

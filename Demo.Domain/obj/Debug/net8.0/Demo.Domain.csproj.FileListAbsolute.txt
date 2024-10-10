@@ -10,3 +10,4 @@ E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\refint\Demo.Domain.dl
 E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.pdb
 E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\ref\Demo.Domain.dll
 E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.sourcelink.json
+E:\Repos\Projects\WhiteLagoon\Demo.Domain\obj\Debug\net8.0\Demo.Domain.csproj.AssemblyReference.cache

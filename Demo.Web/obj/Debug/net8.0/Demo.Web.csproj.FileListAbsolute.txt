@@ -255,3 +255,6 @@ E:\Repos\Projects\WhiteLagoon\Demo.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\
 E:\Repos\Projects\WhiteLagoon\Demo.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\Repos\Projects\WhiteLagoon\Demo.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 E:\Repos\Projects\WhiteLagoon\Demo.Web\obj\Debug\net8.0\Demo.Web.sourcelink.json
+E:\Repos\Projects\WhiteLagoon\Demo.Web\obj\Debug\net8.0\Demo.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\Repos\Projects\WhiteLagoon\Demo.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Repos\Projects\WhiteLagoon\Demo.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

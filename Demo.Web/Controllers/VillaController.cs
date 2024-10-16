@@ -1,4 +1,5 @@
-﻿using Demo.Domain.Entities;
+﻿using Demo.Application.Common.Interfaces;
+using Demo.Domain.Entities;
 using Demo.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,16 +8,16 @@ namespace Demo.Web.Controllers
 {
     public class VillaController : Controller
     {
-        private readonly WhiteLagoonDbContext _context;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public VillaController(WhiteLagoonDbContext context)
+        public VillaController(IUnitOfWork unitOfWork)
         {
-            _context=context;
+            _unitOfWork=unitOfWork;
         }
 
         public async Task<IActionResult> Index()
         {
-            var villas = await _context.Villas.ToListAsync();
+            var villas = await _unitOfWork.Villa.GetAll();
             return View(villas);
         }
 
@@ -30,9 +31,9 @@ namespace Demo.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _context.Villas.AddAsync(villa);
+                await _unitOfWork.Villa.Add(villa);
                 TempData["success"] = "The villa has been created successfully";
-                await _context.SaveChangesAsync();
+                await _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
             else
@@ -42,9 +43,9 @@ namespace Demo.Web.Controllers
             }
         }
 
-        public IActionResult Update(int id)
+        public async Task<IActionResult> Update(int id)
         {
-            var villa = _context.Villas.FirstOrDefault(V => V.Id == id);
+            var villa = await _unitOfWork.Villa.Get(V => V.Id == id);
             if (villa != null)
                 return View(villa);
             else
@@ -55,8 +56,8 @@ namespace Demo.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Villas.Update(villa);
-                await _context.SaveChangesAsync();
+                _unitOfWork.Villa.Update(villa);
+                await _unitOfWork.Save();
                 TempData["success"] = "The villa has been updated successfully";
                 return RedirectToAction(nameof(Index));
             }
@@ -64,9 +65,9 @@ namespace Demo.Web.Controllers
             return View(villa);
         }
 
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var villa = _context.Villas.FirstOrDefault(V => V.Id == id);
+            var villa = await _unitOfWork.Villa.Get(V => V.Id == id);
             if(villa != null)
                 return View(villa);
             return RedirectToAction("Error" , "Home");
@@ -75,11 +76,11 @@ namespace Demo.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(Villa villa)
         {
-            var villaFormDb = _context.Villas.FirstOrDefault(V => V.Id == villa.Id);
+            var villaFormDb = await _unitOfWork.Villa.Get(V => V.Id == villa.Id);
             if (villaFormDb is not null)
             {
-                _context.Villas.Remove(villaFormDb);
-                await _context.SaveChangesAsync();
+                _unitOfWork.Villa.Remove(villaFormDb);
+                await _unitOfWork.Save();
                 TempData["success"] = "The villa has been deleted successfully";
                 return RedirectToAction(nameof(Index));
             }

@@ -10,6 +10,6 @@ namespace Demo.Application.Common.Interfaces
     {
         IVillaRepository Villa { get; }
         IVillaNumberRepository VillaNumber { get; }
-        void Save();
+        Task Save();
     }
 }

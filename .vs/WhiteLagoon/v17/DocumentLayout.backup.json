@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "E:\\Repos\\Projects\\WhiteLagoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\views\\villanumber\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\views\\villanumber\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|e:\\repos\\projects\\whitelagoon\\demo.infrastructure\\repositories\\villanumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:demo.infrastructure\\repositories\\villanumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|e:\\repos\\projects\\whitelagoon\\demo.infrastructure\\repositories\\villarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:demo.infrastructure\\repositories\\villarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\controllers\\villanumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|e:\\repos\\projects\\whitelagoon\\demo.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:demo.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|e:\\repos\\projects\\whitelagoon\\demo.infrastructure\\repositories\\genaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:demo.infrastructure\\repositories\\genaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AC20948-24A8-49D3-8CC3-C9AB46801403}|Demo.Application\\Demo.Application.csproj|e:\\repos\\projects\\whitelagoon\\demo.application\\common\\interfaces\\ivillanumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{6AC20948-24A8-49D3-8CC3-C9AB46801403}|Demo.Application\\Demo.Application.csproj|solutionrelative:demo.application\\common\\interfaces\\ivillarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC20948-24A8-49D3-8CC3-C9AB46801403}|Demo.Application\\Demo.Application.csproj|e:\\repos\\projects\\whitelagoon\\demo.application\\common\\interfaces\\igenaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC20948-24A8-49D3-8CC3-C9AB46801403}|Demo.Application\\Demo.Application.csproj|solutionrelative:demo.application\\common\\interfaces\\igenaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AC20948-24A8-49D3-8CC3-C9AB46801403}|Demo.Application\\Demo.Application.csproj|e:\\repos\\projects\\whitelagoon\\demo.application\\common\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AC20948-24A8-49D3-8CC3-C9AB46801403}|Demo.Application\\Demo.Application.csproj|solutionrelative:demo.application\\common\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\controllers\\villacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,118 +67,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Demo.Web\\Program.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Program.cs*",
-              "RelativeToolTip": "Demo.Web\\Program.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:22:27.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VillaNumberRepository.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\VillaNumberRepository.cs",
-              "RelativeDocumentMoniker": "Demo.Infrastructure\\Repositories\\VillaNumberRepository.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\VillaNumberRepository.cs*",
-              "RelativeToolTip": "Demo.Infrastructure\\Repositories\\VillaNumberRepository.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswA8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:15:05.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VillaRepository.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\VillaRepository.cs",
-              "RelativeDocumentMoniker": "Demo.Infrastructure\\Repositories\\VillaRepository.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\VillaRepository.cs*",
-              "RelativeToolTip": "Demo.Infrastructure\\Repositories\\VillaRepository.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:14:46.038Z",
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\VillaNumber\\Update.cshtml",
+              "RelativeDocumentMoniker": "Demo.Web\\Views\\VillaNumber\\Update.cshtml",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\VillaNumber\\Update.cshtml*",
+              "RelativeToolTip": "Demo.Web\\Views\\VillaNumber\\Update.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T21:01:17.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:14:16.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenaricRepository.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\GenaricRepository.cs",
-              "RelativeDocumentMoniker": "Demo.Infrastructure\\Repositories\\GenaricRepository.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\GenaricRepository.cs*",
-              "RelativeToolTip": "Demo.Infrastructure\\Repositories\\GenaricRepository.cs*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:13:54.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Demo.Application\\Common\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "Demo.Application\\Common\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:09:59.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "IVillaNumberRepository.cs",
               "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IVillaNumberRepository.cs",
               "RelativeDocumentMoniker": "Demo.Application\\Common\\Interfaces\\IVillaNumberRepository.cs",
               "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IVillaNumberRepository.cs",
               "RelativeToolTip": "Demo.Application\\Common\\Interfaces\\IVillaNumberRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:05:22.281Z",
+              "WhenOpened": "2024-10-14T20:59:01.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IGenaricRepository.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IGenaricRepository.cs",
-              "RelativeDocumentMoniker": "Demo.Application\\Common\\Interfaces\\IGenaricRepository.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IGenaricRepository.cs",
-              "RelativeToolTip": "Demo.Application\\Common\\Interfaces\\IGenaricRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:04:52.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "IVillaRepository.cs",
               "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IVillaRepository.cs",
               "RelativeDocumentMoniker": "Demo.Application\\Common\\Interfaces\\IVillaRepository.cs",
               "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Application\\Common\\Interfaces\\IVillaRepository.cs",
               "RelativeToolTip": "Demo.Application\\Common\\Interfaces\\IVillaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:02:39.115Z",
+              "WhenOpened": "2024-10-14T20:58:58.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Demo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:48:55.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VillaNumberController.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\VillaNumberController.cs",
+              "RelativeDocumentMoniker": "Demo.Web\\Controllers\\VillaNumberController.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\VillaNumberController.cs",
+              "RelativeToolTip": "Demo.Web\\Controllers\\VillaNumberController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAxwFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:45:09.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VillaController.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\VillaController.cs",
+              "RelativeDocumentMoniker": "Demo.Web\\Controllers\\VillaController.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\VillaController.cs",
+              "RelativeToolTip": "Demo.Web\\Controllers\\VillaController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwC0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:43:51.914Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,6 @@
 ﻿using Demo.Application.Common.Interfaces;
 using Demo.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,24 +19,57 @@ namespace Demo.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public void Add(T entity)
+        public async Task Add(T entity)
         {
-            throw new NotImplementedException();
+            await _dbContext.Set<T>().AddAsync(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracked = false)
+        public async Task<T> Get(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracked = false)
         {
-            throw new NotImplementedException();
+            IQueryable<T> query;
+            if (tracked)
+                query = _dbContext.Set<T>();
+            else
+                query = _dbContext.Set<T>().AsNoTracking();
+            if(filter != null)
+                query = query.Where(filter);
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp.Trim());
+                }
+            }
+            return await query.FirstOrDefaultAsync();
+
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null, bool tracked = false)
+        public async Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null, bool tracked = false)
         {
-            throw new NotImplementedException();
+            IQueryable<T> query;
+            if (tracked)
+                query = _dbContext.Set<T>();
+            else
+                query = _dbContext.Set<T>().AsNoTracking();
+            if (filter != null)
+                query = query.Where(filter);
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp.Trim());
+                }
+            }
+            return await query.ToListAsync();
         }
 
         public void Remove(T entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Set<T>().Remove(entity);
+        }
+        public bool Any(Expression<Func<T, bool>> filter)
+        {
+            return _dbContext.Set<T>().Any(filter);
         }
     }
 }

@@ -14,23 +14,24 @@
     <div class="card-body border p-4">
         <form method="post" class="row" enctype="multipart/form-data" asp-action="Update">
             <div class="p-3">
+                <input asp-for="@Model.VillaNumber.Villa_Number" hidden />
                 <div class="form-floating py-1 col-12">
                     <select asp-for="@Model.VillaNumber.VillaId" asp-items="@Model.VillaList"
                             class="form-select border shadow">
                         <option disabled selected>--Select Villa--</option>
                     </select>
-                    <label asp-for="VillaNumber.VillaId" class="ms-2"></label>
+                    <label asp-for="@Model.VillaNumber.VillaId" class="ms-2"></label>
                     <span asp-validation-for="VillaNumber.Villa_Number" class="text-danger"></span>
                 </div>
                 <div class="form-floating py-1 col-12">
-                    <input asp-for="VillaNumber.Villa_Number" disabled class="form-control border shadow"  />
-                    <label asp-for="VillaNumber.Villa_Number" class="ms-2"></label>
-                    <span asp-validation-for="VillaNumber.Villa" class="text-danger"></span>
+                    <input asp-for="@Model.VillaNumber.Villa_Number" disabled class="form-control border shadow" />
+                    <label asp-for="@Model.VillaNumber.Villa_Number" class="ms-2"></label>
+                    <span asp-validation-for="@Model.VillaNumber.Villa" class="text-danger"></span>
                 </div>
                 <div class="form-floating py-1 col-12">
-                    <input asp-for="VillaNumber.SpicialDetails" class="form-control border shadow" />
-                    <label asp-for="VillaNumber.SpicialDetails" class="ms-2"></label>
-                    <span asp-validation-for="VillaNumber.SpicialDetails" class="text-danger"></span>
+                    <input asp-for="@Model.VillaNumber.SpicialDetails" class="form-control border shadow" />
+                    <label asp-for="@Model.VillaNumber.SpicialDetails" class="ms-2"></label>
+                    <span asp-validation-for="@Model.VillaNumber.SpicialDetails" class="text-danger"></span>
                 </div>
                 <div class="row pt-2">
                     <div class="col-6 col-md-3">

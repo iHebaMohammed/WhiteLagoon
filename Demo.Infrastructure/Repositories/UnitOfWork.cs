@@ -1,4 +1,5 @@
 ﻿using Demo.Application.Common.Interfaces;
+using Demo.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,22 @@ namespace Demo.Infrastructure.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public IVillaRepository Villa => throw new NotImplementedException();
+        private readonly WhiteLagoonDbContext _dbContext;
 
-        public IVillaNumberRepository VillaNumber => throw new NotImplementedException();
+        public IVillaRepository Villa { get; private set; }
+        public IVillaNumberRepository VillaNumber { get; private set; }
 
-        public void Save()
+        public UnitOfWork(WhiteLagoonDbContext dbContext)
         {
-            throw new NotImplementedException();
+            _dbContext=dbContext;
+
+            Villa = new VillaRepository(_dbContext);
+            VillaNumber = new VillaNumberRepository(_dbContext);
+        }
+
+        public async Task Save()
+        {
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

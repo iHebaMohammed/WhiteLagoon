@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gTrjzWRoGq52D2bNmWK3BKnFWr1k958AOjsu5aptdV0=",
+  "Hash": "YfeJtH1jJME19puWt2MBw4ppudc74nsNOk1M+9ViE8A=",
   "Source": "Demo.Web",
   "BasePath": "_content/Demo.Web",
   "Mode": "Default",
@@ -359,12 +359,12 @@
       "OriginalItemSpec": "wwwroot\\images\\slide2.jpg"
     },
     {
-      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImage\\a78075cc-2905-4471-a578-1d5fe3945fcd.jpg",
+      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImages\\54af7edc-a966-4a73-8fc2-8f92bd43f3f7img-01.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
-      "RelativePath": "images/VillaImage/a78075cc-2905-4471-a578-1d5fe3945fcd.jpg",
+      "RelativePath": "images/VillaImages/54af7edc-a966-4a73-8fc2-8f92bd43f3f7img-01.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,15 +375,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\VillaImage\\a78075cc-2905-4471-a578-1d5fe3945fcd.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\VillaImages\\54af7edc-a966-4a73-8fc2-8f92bd43f3f7img-01.jpg"
     },
     {
-      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImage\\cac7e1b4-5ba4-493f-9b73-14434d5b56d7.jpg",
+      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImages\\7cd79154-e74e-4ba7-8d86-a14c8b91d2f0img-01.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
-      "RelativePath": "images/VillaImage/cac7e1b4-5ba4-493f-9b73-14434d5b56d7.jpg",
+      "RelativePath": "images/VillaImages/7cd79154-e74e-4ba7-8d86-a14c8b91d2f0img-01.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -394,26 +394,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\VillaImage\\cac7e1b4-5ba4-493f-9b73-14434d5b56d7.jpg"
-    },
-    {
-      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImage\\d75cb0ad-9ed1-46af-87bc-fa99e00b2e58.jpg",
-      "SourceId": "Demo.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\",
-      "BasePath": "_content/Demo.Web",
-      "RelativePath": "images/VillaImage/d75cb0ad-9ed1-46af-87bc-fa99e00b2e58.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\VillaImage\\d75cb0ad-9ed1-46af-87bc-fa99e00b2e58.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\VillaImages\\7cd79154-e74e-4ba7-8d86-a14c8b91d2f0img-01.jpg"
     },
     {
       "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\js\\site.js",

@@ -14,6 +14,7 @@ namespace Demo.Infrastructure.Repositories
 
         public IVillaRepository Villa { get; private set; }
         public IVillaNumberRepository VillaNumber { get; private set; }
+        public IAmenityRepository Amenity { get; private set; }
 
         public UnitOfWork(WhiteLagoonDbContext dbContext)
         {
@@ -21,6 +22,7 @@ namespace Demo.Infrastructure.Repositories
 
             Villa = new VillaRepository(_dbContext);
             VillaNumber = new VillaNumberRepository(_dbContext);
+            Amenity = new AmenityRepository(_dbContext);
         }
 
         public async Task Save()

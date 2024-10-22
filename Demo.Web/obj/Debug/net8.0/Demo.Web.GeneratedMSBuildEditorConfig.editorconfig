@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Repos\Projects\WhiteLagoon\Demo.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Repos/Projects/WhiteLagoon/Demo.Web/Views/Amenity/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbml0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Repos/Projects/WhiteLagoon/Demo.Web/Views/Amenity/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbml0eVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Repos/Projects/WhiteLagoon/Demo.Web/Views/Amenity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbml0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Repos/Projects/WhiteLagoon/Demo.Web/Views/Amenity/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1lbml0eVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Repos/Projects/WhiteLagoon/Demo.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

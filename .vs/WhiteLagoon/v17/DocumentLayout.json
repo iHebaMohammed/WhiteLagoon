@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\Repos\\Projects\\WhiteLagoon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 994,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +70,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Demo.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Demo.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T22:03:02.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Demo.Web\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "Demo.Web\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T21:57:01.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Demo.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Demo.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T10:26:42.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Delete.cshtml",
               "RelativeDocumentMoniker": "Demo.Web\\Views\\Amenity\\Delete.cshtml",
@@ -66,12 +117,11 @@
               "RelativeToolTip": "Demo.Web\\Views\\Amenity\\Delete.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T09:15:26.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T09:15:26.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Update.cshtml",
               "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Update.cshtml",
               "RelativeDocumentMoniker": "Demo.Web\\Views\\Amenity\\Update.cshtml",
@@ -79,12 +129,11 @@
               "RelativeToolTip": "Demo.Web\\Views\\Amenity\\Update.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T09:15:04.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T09:15:04.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Create.cshtml",
               "RelativeDocumentMoniker": "Demo.Web\\Views\\Amenity\\Create.cshtml",
@@ -92,12 +141,11 @@
               "RelativeToolTip": "Demo.Web\\Views\\Amenity\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T09:14:27.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T09:14:27.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AmenityController.cs",
               "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\AmenityController.cs",
               "RelativeDocumentMoniker": "Demo.Web\\Controllers\\AmenityController.cs",

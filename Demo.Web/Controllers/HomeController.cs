@@ -1,4 +1,6 @@
+using Demo.Application.Common.Interfaces;
 using Demo.Web.Models;
+using Demo.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,16 +8,22 @@ namespace Demo.Web.Controllers
 {
 	public class HomeController : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unitOfWork;
 
-		public HomeController(ILogger<HomeController> logger)
-		{
-			_logger = logger;
-		}
+        public HomeController(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
 
-		public IActionResult Index()
+        public async Task<IActionResult> Index()
 		{
-			return View();
+			HomeViewModel model = new HomeViewModel()
+			{
+				VillaList = await _unitOfWork.Villa.GetAll(),
+				Nights = 1,
+				CheckInDate = DateOnly.FromDateTime(DateTime.Now),
+			};
+			return View(model);
 		}
 
 		public IActionResult Privacy()

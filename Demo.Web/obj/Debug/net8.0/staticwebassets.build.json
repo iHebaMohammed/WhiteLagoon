@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YfeJtH1jJME19puWt2MBw4ppudc74nsNOk1M+9ViE8A=",
+  "Hash": "cR8af9nPBtPk/CjMgJown2zAUMWhZXgi+ksOEe+FY94=",
   "Source": "Demo.Web",
   "BasePath": "_content/Demo.Web",
   "Mode": "Default",
@@ -359,6 +359,25 @@
       "OriginalItemSpec": "wwwroot\\images\\slide2.jpg"
     },
     {
+      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImages\\1954fd12-7a99-47c8-a198-4de8ccf5c9a6premium_photo-1682377521753-58d1fd9fa5ce.jfif",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/VillaImages/1954fd12-7a99-47c8-a198-4de8ccf5c9a6premium_photo-1682377521753-58d1fd9fa5ce.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\VillaImages\\1954fd12-7a99-47c8-a198-4de8ccf5c9a6premium_photo-1682377521753-58d1fd9fa5ce.jfif"
+    },
+    {
       "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImages\\54af7edc-a966-4a73-8fc2-8f92bd43f3f7img-01.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
@@ -378,6 +397,25 @@
       "OriginalItemSpec": "wwwroot\\images\\VillaImages\\54af7edc-a966-4a73-8fc2-8f92bd43f3f7img-01.jpg"
     },
     {
+      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImages\\61077a10-8712-4b0b-a68f-89fb41ca3737download.jfif",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/VillaImages/61077a10-8712-4b0b-a68f-89fb41ca3737download.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\VillaImages\\61077a10-8712-4b0b-a68f-89fb41ca3737download.jfif"
+    },
+    {
       "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImages\\7cd79154-e74e-4ba7-8d86-a14c8b91d2f0img-01.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
@@ -395,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\VillaImages\\7cd79154-e74e-4ba7-8d86-a14c8b91d2f0img-01.jpg"
+    },
+    {
+      "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\images\\VillaImages\\bae5b9a2-7a96-4f6f-85d5-dcb23b1fa7abpremium_photo-1682377521625-c656fc1ff3e1.jfif",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/VillaImages/bae5b9a2-7a96-4f6f-85d5-dcb23b1fa7abpremium_photo-1682377521625-c656fc1ff3e1.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\VillaImages\\bae5b9a2-7a96-4f6f-85d5-dcb23b1fa7abpremium_photo-1682377521625-c656fc1ff3e1.jfif"
     },
     {
       "Identity": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\wwwroot\\js\\site.js",

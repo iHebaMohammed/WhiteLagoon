@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "E:\\Repos\\Projects\\WhiteLagoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|e:\\repos\\projects\\whitelagoon\\demo.infrastructure\\data\\whitelagoondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B170531F-7B4A-470B-B292-375D877C1C67}|Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:demo.infrastructure\\data\\whitelagoondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\controllers\\amenitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\views\\amenity\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\views\\amenity\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\views\\amenity\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\views\\amenity\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|e:\\repos\\projects\\whitelagoon\\demo.web\\views\\amenity\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5019696-0868-46E2-93A9-1524B137528A}|Demo.Web\\Demo.Web.csproj|solutionrelative:demo.web\\views\\amenity\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CAC64A2C-44B7-4227-8F78-1DEC52E379DC}|Demo.Domain\\Demo.Domain.csproj|e:\\repos\\projects\\whitelagoon\\demo.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC64A2C-44B7-4227-8F78-1DEC52E379DC}|Demo.Domain\\Demo.Domain.csproj|solutionrelative:demo.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 994,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,90 +54,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Demo.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Demo.Web\\Controllers\\HomeController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAADAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Demo.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Demo.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:03:02.128Z",
+              "WhenOpened": "2024-11-04T13:47:06.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\ViewModels\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "Demo.Web\\ViewModels\\HomeViewModel.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\ViewModels\\HomeViewModel.cs*",
-              "RelativeToolTip": "Demo.Web\\ViewModels\\HomeViewModel.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Demo.Web\\Program.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Program.cs",
+              "RelativeToolTip": "Demo.Web\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:57:01.323Z",
+              "WhenOpened": "2024-11-04T12:21:42.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Demo.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Demo.Web\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T10:26:42.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Demo.Web\\Views\\Amenity\\Delete.cshtml",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Delete.cshtml",
-              "RelativeToolTip": "Demo.Web\\Views\\Amenity\\Delete.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T09:15:26.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Update.cshtml",
-              "RelativeDocumentMoniker": "Demo.Web\\Views\\Amenity\\Update.cshtml",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Update.cshtml",
-              "RelativeToolTip": "Demo.Web\\Views\\Amenity\\Update.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T09:15:04.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Create.cshtml",
-              "RelativeDocumentMoniker": "Demo.Web\\Views\\Amenity\\Create.cshtml",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Views\\Amenity\\Create.cshtml",
-              "RelativeToolTip": "Demo.Web\\Views\\Amenity\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T09:14:27.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AmenityController.cs",
-              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\AmenityController.cs",
-              "RelativeDocumentMoniker": "Demo.Web\\Controllers\\AmenityController.cs",
-              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Web\\Controllers\\AmenityController.cs",
-              "RelativeToolTip": "Demo.Web\\Controllers\\AmenityController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "WhiteLagoonDbContext.cs",
+              "DocumentMoniker": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "RelativeDocumentMoniker": "Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "ToolTip": "E:\\Repos\\Projects\\WhiteLagoon\\Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "RelativeToolTip": "Demo.Infrastructure\\Data\\WhiteLagoonDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:13:46.161Z",
+              "WhenOpened": "2024-11-04T12:19:53.573Z",
               "EditorCaption": ""
             }
           ]

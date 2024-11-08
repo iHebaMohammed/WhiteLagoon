@@ -1,4 +1,5 @@
 ﻿using Demo.Domain.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Demo.Infrastructure.Data
 {
-	public class WhiteLagoonDbContext : DbContext
+	public class WhiteLagoonDbContext : IdentityDbContext<ApplicationUser>
 	{
-		public WhiteLagoonDbContext(DbContextOptions options) : base(options)
+		public WhiteLagoonDbContext(DbContextOptions<WhiteLagoonDbContext> options) : base(options)
 		{
 		}
 

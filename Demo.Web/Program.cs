@@ -1,6 +1,8 @@
 using Demo.Application.Common.Interfaces;
+using Demo.Domain.Entities;
 using Demo.Infrastructure.Data;
 using Demo.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Demo.Web
@@ -20,6 +22,8 @@ namespace Demo.Web
 			builder.Services.AddScoped<IVillaRepository , VillaRepository>();
 			builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+			builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+				.AddEntityFrameworkStores<WhiteLagoonDbContext>().AddDefaultTokenProviders();
 
 			var app = builder.Build();
 

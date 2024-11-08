@@ -17,8 +17,8 @@
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Options": "2.2.0"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {
@@ -42,8 +42,8 @@
       },
       "Microsoft.AspNetCore.Authorization/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Options": "2.2.0"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {
@@ -64,6 +64,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Cryptography.Internal/8.0.10": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46804"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "8.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46804"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.2.0",
@@ -80,7 +99,7 @@
       "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {
@@ -94,7 +113,7 @@
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.WebUtilities": "2.2.0",
           "Microsoft.Extensions.ObjectPool": "2.2.0",
-          "Microsoft.Extensions.Options": "2.2.0",
+          "Microsoft.Extensions.Options": "8.0.2",
           "Microsoft.Net.Http.Headers": "2.2.0"
         },
         "runtime": {
@@ -132,12 +151,24 @@
       },
       "Microsoft.AspNetCore.Http.Features/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.10": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.10",
+          "Microsoft.Extensions.Identity.Stores": "8.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "8.0.10.0",
+            "fileVersion": "8.0.1024.46804"
           }
         }
       },
@@ -164,10 +195,10 @@
           "Microsoft.AspNetCore.ResponseCaching.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Routing": "2.2.0",
           "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
           "Microsoft.Extensions.DependencyModel": "2.1.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
           "System.Diagnostics.DiagnosticSource": "4.5.0",
           "System.Threading.Tasks.Extensions": "4.5.1"
         },
@@ -180,7 +211,7 @@
       },
       "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {
@@ -193,9 +224,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
           "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
           "Microsoft.Extensions.ObjectPool": "2.2.0",
-          "Microsoft.Extensions.Options": "2.2.0"
+          "Microsoft.Extensions.Options": "8.0.2"
         },
         "runtime": {
           "lib/netcoreapp2.2/Microsoft.AspNetCore.Routing.dll": {
@@ -265,33 +296,94 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+      "Microsoft.EntityFrameworkCore/8.0.10": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.10",
+          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.10",
+          "Microsoft.Extensions.Caching.Memory": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18315"
+          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "8.0.10.0",
+            "fileVersion": "8.0.1024.46708"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/2.2.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
-        },
+      "Microsoft.EntityFrameworkCore.Abstractions/8.0.10": {
         "runtime": {
-          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18315"
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "8.0.10.0",
+            "fileVersion": "8.0.1024.46708"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/8.0.10": {},
+      "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.10",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18315"
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "8.0.10.0",
+            "fileVersion": "8.0.1024.46708"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
           }
         }
       },
@@ -312,7 +404,7 @@
       },
       "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
@@ -323,10 +415,10 @@
       },
       "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
@@ -335,11 +427,53 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+      "Microsoft.Extensions.Identity.Core/8.0.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.10",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18315"
+          "lib/net8.0/Microsoft.Extensions.Identity.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46804"
+          }
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/8.0.10": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Identity.Core": "8.0.10",
+          "Microsoft.Extensions.Logging": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46804"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
           }
         }
       },
@@ -351,34 +485,29 @@
           }
         }
       },
-      "Microsoft.Extensions.Options/2.2.0": {
+      "Microsoft.Extensions.Options/8.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Primitives": "2.2.0",
-          "System.ComponentModel.Annotations": "4.5.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18315"
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.224.6711"
           }
         }
       },
-      "Microsoft.Extensions.Primitives/2.2.0": {
-        "dependencies": {
-          "System.Memory": "4.5.1",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
-        },
+      "Microsoft.Extensions.Primitives/8.0.0": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18315"
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0",
+          "Microsoft.Extensions.Primitives": "8.0.0",
           "System.Buffers": "4.5.0"
         },
         "runtime": {
@@ -441,7 +570,6 @@
           "System.Runtime": "4.1.0"
         }
       },
-      "System.ComponentModel.Annotations/4.5.0": {},
       "System.Diagnostics.Debug/4.0.11": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
@@ -539,7 +667,6 @@
           "System.Threading": "4.0.11"
         }
       },
-      "System.Memory/4.5.1": {},
       "System.ObjectModel/4.0.12": {
         "dependencies": {
           "System.Collections": "4.0.11",
@@ -618,7 +745,6 @@
           "Microsoft.NETCore.Targets": "1.0.1"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
       "System.Runtime.Extensions/4.1.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
@@ -737,6 +863,7 @@
       },
       "Demo.Domain/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
@@ -782,6 +909,20 @@
       "path": "microsoft.aspnetcore.authorization.policy/2.2.0",
       "hashPath": "microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Cryptography.Internal/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MT/jvNoiXUB82drzqtqZqyAfxQH2b0kpEyjjMYrSLmqgAvBkMEKJelbqHazEo5Lxtq43uquPgeBtTuSrVog5lQ==",
+      "path": "microsoft.aspnetcore.cryptography.internal/8.0.10",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.8.0.10.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4jd0g3k2R1L1bhhpVmJOp7rAs76V9XLVuhl8J3sTAcl2dKMS78PsKG1HX75U73WEEwrsM4Bui2/N1/Blwgt5iw==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.10",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.8.0.10.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -823,6 +964,13 @@
       "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
       "path": "microsoft.aspnetcore.http.features/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vMeY9F3Sq+AiZlquf84rwHOAQBS8nb8kd1RcuoXKPBhHNGBxMLYnr8/e/FCwu7kb14hH/rqWoEuyO4WXpAO6Rw==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.10",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.8.0.10.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Abstractions/2.2.0": {
       "type": "package",
@@ -880,26 +1028,68 @@
       "path": "microsoft.dotnet.platformabstractions/2.1.0",
       "hashPath": "microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+    "Microsoft.EntityFrameworkCore/8.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
-      "path": "microsoft.extensions.configuration.abstractions/2.2.0",
-      "hashPath": "microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512"
+      "sha512": "sha512-PPkQdIqfR1nU3n6YgGGDk8G+eaYbaAKM1AzIQtlPNTKf10Osg3N9T+iK9AlnSA/ujsK00flPpFHVfJrbuBFS1A==",
+      "path": "microsoft.entityframeworkcore/8.0.10",
+      "hashPath": "microsoft.entityframeworkcore.8.0.10.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/2.2.0": {
+    "Microsoft.EntityFrameworkCore.Abstractions/8.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MZtBIwfDFork5vfjpJdG5g8wuJFt7d/y3LOSVVtDK/76wlbtz6cjltfKHqLx2TKVqTj5/c41t77m1+h20zqtPA==",
-      "path": "microsoft.extensions.dependencyinjection/2.2.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512"
+      "sha512": "sha512-FV0QlcX9INY4kAD2o72uPtyOh0nZut2jB11Jf9mNYBtHay8gDLe+x4AbXFwuQg+eSvofjT7naV82e827zGfyMg==",
+      "path": "microsoft.entityframeworkcore.abstractions/8.0.10",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+    "Microsoft.EntityFrameworkCore.Analyzers/8.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512"
+      "sha512": "sha512-51KkPIc0EMv/gVXhPIUi6cwJE9Mvh+PLr4Lap4naLcsoGZ0lF2SvOPgUUprwRV3MnN7nyD1XPhT5RJ/p+xFAXw==",
+      "path": "microsoft.entityframeworkcore.analyzers/8.0.10",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OefBEE47kGKPRPV3OT+FAW6o5BFgLk2D9EoeWVy7NbOepzUneayLQxbVE098FfedTyMwxvZQoDD9LrvZc3MadA==",
+      "path": "microsoft.entityframeworkcore.relational/8.0.10",
+      "hashPath": "microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3KuSxeHoNYdxVYfg2IRZCThcrlJ1XJqIXkAWikCsbm5C/bCjv7G0WoKDyuR98Q+T607QT2Zl5GsbGRkENcV2yQ==",
+      "path": "microsoft.extensions.caching.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HFDnhYLccngrzyGgHkjEDU5FMLn4MpOsr5ElgsBMC4yx6lJh4jeWO7fHS8+TXPq+dgxCmUa/Trl8svObmwW4QA==",
+      "path": "microsoft.extensions.caching.memory/8.0.1",
+      "hashPath": "microsoft.extensions.caching.memory.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BmANAnR5Xd4Oqw7yQ75xOAYODybZQRzdeNucg7kS5wWKd2PNnMdYtJ2Vciy0QLylRmv42DGl5+AFL9izA6F1Rw==",
+      "path": "microsoft.extensions.dependencyinjection/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyModel/2.1.0": {
       "type": "package",
@@ -922,12 +1112,33 @@
       "path": "microsoft.extensions.hosting.abstractions/2.2.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+    "Microsoft.Extensions.Identity.Core/8.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B2WqEox8o+4KUOpL7rZPyh6qYjik8tHi2tN8Z9jZkHzED8ElYgZa/h6K+xliB435SqUcWT290Fr2aa8BtZjn8A==",
-      "path": "microsoft.extensions.logging.abstractions/2.2.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512"
+      "sha512": "sha512-tS0lNRccAxuAeIVxLBDdklSOL2vAzVUcYqY0njsRbJpNYrXNIKVeQGmhPJgBU0Vrq+iu0LLJ4KLCqGxsOIWpyw==",
+      "path": "microsoft.extensions.identity.core/8.0.10",
+      "hashPath": "microsoft.extensions.identity.core.8.0.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Stores/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mwxhj2pLwFcT8BOJ4g7y/WQyQSmZNOalIHmyISFlWykPEKgaQXOlddOCOftSIUqh4IZEYDsVXjeecjl9RLC8Lw==",
+      "path": "microsoft.extensions.identity.stores/8.0.10",
+      "hashPath": "microsoft.extensions.identity.stores.8.0.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4x+pzsQEbqxhNf1QYRr5TDkLP9UsLT3A6MdRKDDEgrW7h1ljiEPgTNhKYUhNCCAaVpQECVQ+onA91PTPnIp6Lw==",
+      "path": "microsoft.extensions.logging/8.0.1",
+      "hashPath": "microsoft.extensions.logging.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.2",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.ObjectPool/2.2.0": {
       "type": "package",
@@ -936,19 +1147,19 @@
       "path": "microsoft.extensions.objectpool/2.2.0",
       "hashPath": "microsoft.extensions.objectpool.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/2.2.0": {
+    "Microsoft.Extensions.Options/8.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UpZLNLBpIZ0GTebShui7xXYh6DmBHjWM8NxGxZbdQh/bPZ5e6YswqI+bru6BnEL5eWiOdodsXtEz3FROcgi/qg==",
-      "path": "microsoft.extensions.options/2.2.0",
-      "hashPath": "microsoft.extensions.options.2.2.0.nupkg.sha512"
+      "sha512": "sha512-dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
+      "path": "microsoft.extensions.options/8.0.2",
+      "hashPath": "microsoft.extensions.options.8.0.2.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/2.2.0": {
+    "Microsoft.Extensions.Primitives/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
-      "path": "microsoft.extensions.primitives/2.2.0",
-      "hashPath": "microsoft.extensions.primitives.2.2.0.nupkg.sha512"
+      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",
@@ -1005,13 +1216,6 @@
       "sha512": "sha512-YUJGz6eFKqS0V//mLt25vFGrrCvOnsXjlvFQs+KimpwNxug9x0Pzy4PlFMU3Q2IzqAa9G2L4LsK3+9vCBK7oTg==",
       "path": "system.collections/4.0.11",
       "hashPath": "system.collections.4.0.11.nupkg.sha512"
-    },
-    "System.ComponentModel.Annotations/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
-      "path": "system.componentmodel.annotations/4.5.0",
-      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.0.11": {
       "type": "package",
@@ -1083,13 +1287,6 @@
       "path": "system.linq.expressions/4.1.0",
       "hashPath": "system.linq.expressions.4.1.0.nupkg.sha512"
     },
-    "System.Memory/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
-      "path": "system.memory/4.5.1",
-      "hashPath": "system.memory.4.5.1.nupkg.sha512"
-    },
     "System.ObjectModel/4.0.12": {
       "type": "package",
       "serviceable": true,
@@ -1159,13 +1356,6 @@
       "sha512": "sha512-v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
       "path": "system.runtime/4.1.0",
       "hashPath": "system.runtime.4.1.0.nupkg.sha512"
-    },
-    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.1",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
     },
     "System.Runtime.Extensions/4.1.0": {
       "type": "package",

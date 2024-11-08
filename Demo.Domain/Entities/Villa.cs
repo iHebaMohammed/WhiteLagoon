@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -28,5 +29,8 @@ namespace Demo.Domain.Entities
         public IFormFile? Image { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
+
+        [ValidateNever]
+        public IEnumerable<Amenity> VillaAmenities { get; set; }
     }
 }

@@ -19,7 +19,7 @@ namespace Demo.Web.Controllers
 		{
 			HomeViewModel model = new HomeViewModel()
 			{
-				VillaList = await _unitOfWork.Villa.GetAll(),
+				VillaList = await _unitOfWork.Villa.GetAll(includeProperties: "VillaAmenities"),
 				Nights = 1,
 				CheckInDate = DateOnly.FromDateTime(DateTime.Now),
 			};
